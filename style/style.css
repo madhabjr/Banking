@@ -1,0 +1,99 @@
+.navbar123{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    padding: 0px 20px ;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.web{
+    font-family: 'Architects Daughter', cursive;   
+}
+
+.nav-item:hover{
+    background: #d7d2b5;
+     border-radius: 9px;
+     text-align: center;
+     color: black !important;
+     margin: 0px 10px;
+
+}
+.activeNav {
+     background: #FFAFBD;  
+     background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  
+     background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+     border-radius: 9px;
+     color: black !important;
+     margin: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+#bank {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("./money.png")  no-repeat; 
+    background-size: cover;
+    background-position: center;
+    margin-top: -8px;
+  }
+  
+  #bank .bank-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+
+  .innerC{
+    display: flex;
+    flex-direction: row;
+  }
+.para{
+        font-family: 'Dancing Script', cursive;
+        width: 100%; 
+        position: absolute;
+        top: 10%;
+        transform: translateY(-90%);
+        font-size: 100px;
+        margin-top: -75px;
+        color: #fff;
+}
+
+.heading{
+    font-family: 'Pacifico', cursive;
+    color: #c7baba;
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    margin-top: -34px;
+    margin-left: 16px;
+  }
+
+  .maincard{
+      border-radius: 20px;
+  }
+
+  .imgsh{
+        border-radius: 50px;
+        height: 20rem;
+        width: 18rem;
+        padding:20px;
+      } 
+
+.footer12{
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    padding-bottom: 10px;
+}
+
+.rights{
+    color: blanchedalmond;
+}
+
