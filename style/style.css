@@ -21,9 +21,8 @@
 
 }
 .activeNav {
-     background: #FFAFBD;  
-     background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  
-     background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    background: rgb(115,137,222);
+    background: linear-gradient(260deg, rgba(115,137,222,1) 12%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%); 
      border-radius: 9px;
      color: black !important;
      margin: 0px 10px;
